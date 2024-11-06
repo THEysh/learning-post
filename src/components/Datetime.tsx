@@ -40,10 +40,10 @@ export default function Datetime({
       </svg>
       {modDatetime && modDatetime > pubDatetime ? (
         <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>
-          Updated:
+          更新于:
         </span>
       ) : (
-        <span className="sr-only">Published:</span>
+        <span className="sr-only">发布日期:</span>
       )}
       <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>
         <FormattedDatetime

@@ -8,17 +8,23 @@ import LinkButton from "@components/LinkButton.astro";
 
 <Layout title={`404 Not Found | ${SITE.title}`}>
   <Header />
-
   <main id="main-content">
     <div class="not-found-wrapper">
-      <h1>404</h1>
-      <span aria-hidden="true">¯\_(ツ)_/¯</span>
-      <p>Page Not Found</p>
+      <!-- <h1>404</h1> -->
+      <pre>
+     _  _     ___   _  _   
+    | || |   / _ \ | || |  
+    | || |_ | | | || || |_ 
+    |__   _|| | | ||__   _|
+       | |  | |_| |   | |  
+       |_|   \___/    |_|  
+                               
+      </pre>
       <LinkButton
         href="/"
         className="my-6 text-lg underline decoration-dashed underline-offset-8"
       >
-        Go back home
+        回到主页
       </LinkButton>
     </div>
   </main>

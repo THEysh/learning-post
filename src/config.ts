@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://", // replace this with your deployed domain
+  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "杨盛晖",
   profile: "https://github.com/THEysh",
   desc: "html css js python torch 学习记录.",
@@ -13,9 +13,9 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
-    url: "https://github.com/THEysh",
-    text: "Hello ysh on GitHub",
-    appendFilePath: true,
+    // url: "https://github.com/THEysh/astro-paper/edit/main/src/content/blog",
+    // text: "Hello ysh on GitHub",
+    // appendFilePath: true,
   },
 };
 

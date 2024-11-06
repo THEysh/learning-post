@@ -20,6 +20,14 @@
     --color-card-muted: 74, 78, 134;
     --color-border: 177, 47, 50;
   }
+    /* 确保公式颜色和背景色正确 */
+  .katex-html {
+    color: var(--color-text-base);
+    background-color: transparent;
+  }
+
+
+
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
     display: none;

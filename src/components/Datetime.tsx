@@ -40,10 +40,10 @@ export default function Datetime({
       </svg>
       {modDatetime && modDatetime > pubDatetime ? (
         <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>
-          更新于:
+          Updated:
         </span>
       ) : (
-        <span className="sr-only">发布日期:</span>
+        <span className="sr-only">Published:</span>
       )}
       <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>
         <FormattedDatetime
@@ -57,10 +57,9 @@ export default function Datetime({
 }
 
 const FormattedDatetime = ({ pubDatetime, modDatetime }: DatetimesProps) => {
-  const myDatetime = new Date(
+  var myDatetime = new Date(
     modDatetime && modDatetime > pubDatetime ? modDatetime : pubDatetime
   );
-
   const date = myDatetime.toLocaleDateString(LOCALE.langTag, {
     year: "numeric",
     month: "short",

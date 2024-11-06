@@ -18,6 +18,7 @@ export default defineConfig({
     sitemap(),
   ],
   markdown: {
+    rehypePlugins: [rehypeKatex],
     remarkPlugins: [
       remarkMath,
       remarkToc,
@@ -28,7 +29,6 @@ export default defineConfig({
         },
       ],
     ],
-    rehypePlugins: [rehypeKatex],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
       themes: { light: "min-light", dark: "night-owl" },

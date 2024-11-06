@@ -14,14 +14,14 @@ export const SITE: Site = {
   showArchives: true,
   editPost: {
     // url: "https://github.com/THEysh/astro-paper/edit/main/src/content/blog",
-    // text: "Hello ysh on GitHub",
+    // text: "ysh on GitHub",
     // appendFilePath: true,
   },
 };
 
 export const LOCALE = {
   lang: "en", // html lang code. Set this empty and default will be "en"
-  langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
+  langTag: ["zh-CN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
 } as const;
 
 export const LOGO_IMAGE = {

@@ -8,14 +8,14 @@ export const SITE: Site = {
   title: "Hello",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerIndex: 4,
-  postPerPage: 15,
+  postPerIndex: 1,
+  postPerPage: 200,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
     // url: "https://github.com/THEysh/astro-paper/edit/main/src/content/blog",
     // text: "ysh on GitHub",
-    // appendFilePath: true,
+    appendFilePath: false,
   },
 };
 

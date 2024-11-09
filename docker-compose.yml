@@ -1,5 +1,4 @@
 version: '3'
-<<<<<<< HEAD
 services:
   app:
     image: learning-post
@@ -9,15 +8,3 @@ services:
       - ./src:/app/src
       - ./public:/app/public
     command: npm run dev -- --host 0.0.0.0
-=======
-
-services:
-  app:
-    image: node:20
-    ports:
-      - 4321:4321
-    working_dir: /app
-    command: npm run dev -- --host 0.0.0.0
-    volumes:
-      - ./:/app
->>>>>>> 5f793479beffe371052dc1f7bc9cb77685b1f212
